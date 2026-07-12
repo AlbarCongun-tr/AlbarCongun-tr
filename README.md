@@ -103,12 +103,6 @@
 
 <div align="center">
 
-## Weekly Code Tip
-
-<!--START_SECTION:tip-->
-> 💡 In Kotlin, sealed classes give you exhaustive checks in when blocks — no else branch needed.
-<!--END_SECTION:tip-->
-
 </div>
 
 <br/>
