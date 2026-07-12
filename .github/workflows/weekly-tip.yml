@@ -1,0 +1,37 @@
+name: Weekly Code Tip
+
+# Picks one tip from the weekly_tips list in config.yml (deterministically,
+# based on ISO week number) and writes it into README.md. To change the
+# pool of tips, edit config.yml only — never README.md directly.
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"   # every Monday at 06:00 UTC
+  workflow_dispatch: {}
+
+jobs:
+  update-tip:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Pick and inject weekly tip
+        run: python3 pick_weekly_tip.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: update weekly tip"
+          git push

@@ -1,0 +1,113 @@
+# =========================================================
+# PROFILE CONFIG — single source of truth
+# Edit THIS file only. Every workflow reads from here and
+# regenerates README.md automatically. Never edit README.md
+# by hand — your changes will be overwritten on next run.
+# =========================================================
+
+github_username: AlbarCongun-tr
+display_name: AlbarCongun
+tagline: Developer
+
+# Rotating lines in the header typing animation
+typing_lines:
+  - "Kotlin & Java Developer"
+  - "Minecraft Plugin & Mod Developer"
+  - "Paper | Spigot | Fabric"
+  - "Lead Developer @ TerraMonic"
+  - "Full-Stack & Cloud Enthusiast"
+  - "Always Learning, Always Shipping"
+
+theme:
+  gradient_from: "1E3A8A"
+  gradient_to: "4FA8FF"
+  accent: "4FA8FF"
+  bg: "0D1117"
+  text: "C9D1D9"
+
+# Free-form bullet list for the About Me section
+about:
+  - "Part of my coding time goes into **Minecraft** — plugins, mods, and server-side projects"
+  - "I work with **Paper**, **Spigot**, and write **Fabric** mods in my free time"
+  - "My main languages are **Kotlin** and **Java**"
+  - "Always open to learning new languages and frameworks"
+  - "I care about clean, readable, maintainable code"
+  - "I enjoy collaborating and doing code reviews with others"
+  - "Currently building and leading **TerraMonic**"
+
+# This is the ONLY section you touch day-to-day for "what am I doing now".
+# sync-now workflow copies this list straight into README.md whenever
+# this file changes — no need to touch README.md at all.
+now:
+  - "Improving the **TerraMonic** server"
+  - "Working on a new Paper plugin"
+
+project:
+  name: TerraMonic
+  server_ip: play.terramonic.com
+  role: Lead Developer
+  version: "1.21.11 / 26.2"
+  discord_invite: "https://discord.gg/AV3xXubfBf"
+  banner_ip_for_image: play.terramonic.com
+
+tech_stack:
+  languages:
+    - { name: "C#", slug: csharp, color: "239120", logoColor: white }
+    - { name: "Python", slug: python, color: "3776AB", logoColor: white }
+    - { name: "Kotlin", slug: kotlin, color: "7F52FF", logoColor: white }
+    - { name: "Lua", slug: lua, color: "2C2D72", logoColor: white }
+    - { name: "Java", slug: openjdk, color: "ED8B00", logoColor: white }
+    - { name: "C++", slug: "cplusplus", color: "00599C", logoColor: white }
+    - { name: "TypeScript", slug: typescript, color: "3178C6", logoColor: white }
+    - { name: "PHP", slug: php, color: "777BB4", logoColor: white }
+    - { name: "JavaScript", slug: javascript, color: "F7DF1E", logoColor: black }
+    - { name: "C", slug: c, color: "A8B9CC", logoColor: black }
+  frontend:
+    - { name: "Bootstrap", slug: bootstrap, color: "7952B3", logoColor: white }
+    - { name: "CSS3", slug: css3, color: "1572B6", logoColor: white }
+    - { name: "React", slug: react, color: "20232A", logoColor: "61DAFB" }
+    - { name: "Tailwind CSS", slug: tailwind-css, color: "38B2AC", logoColor: white }
+    - { name: "HTML5", slug: html5, color: "E34F26", logoColor: white }
+  backend:
+    - { name: "MongoDB", slug: mongodb, color: "47A248", logoColor: white }
+    - { name: ".NET", slug: dotnet, color: "512BD4", logoColor: white }
+    - { name: "Node.js", slug: "node.js", color: "339933", logoColor: white }
+    - { name: "Redis", slug: redis, color: "DC382D", logoColor: white }
+    - { name: "Express", slug: express, color: "000000", logoColor: white }
+    - { name: "MySQL", slug: mysql, color: "4479A1", logoColor: white }
+  infrastructure:
+    - { name: "GCP", slug: googlecloud, color: "4285F4", logoColor: white }
+    - { name: "Apache", slug: apache, color: "D22128", logoColor: white }
+    - { name: "Cloudflare", slug: cloudflare, color: "F38020", logoColor: white }
+    - { name: "Docker", slug: docker, color: "2496ED", logoColor: white }
+    - { name: "Firebase", slug: firebase, color: "FFCA28", logoColor: black }
+    - { name: "NGINX", slug: nginx, color: "009639", logoColor: white }
+    - { name: "Ubuntu", slug: ubuntu, color: "E95420", logoColor: white }
+  tools:
+    - { name: "IntelliJ IDEA", slug: intellijidea, color: "000000", logoColor: white }
+    - { name: "WordPress", slug: wordpress, color: "21759B", logoColor: white }
+    - { name: "Git", slug: git, color: "F05032", logoColor: white }
+    - { name: "Pterodactyl", slug: pterodactyl, color: "2A4865", logoColor: white }
+    - { name: "VS Code", slug: visualstudiocode, color: "007ACC", logoColor: white }
+  minecraft:
+    - { name: "PaperMC", slug: papermc, color: "00AAFF", logoColor: white }
+    - { name: "Bukkit", slug: "", color: "F58220", logoColor: white }
+    - { name: "Spigot", slug: spigotmc, color: "FFD500", logoColor: black }
+    - { name: "Fabric", slug: fabric, color: "DBD0B4", logoColor: black }
+
+# Pool of tips shown in "Weekly Code Tip". One is picked per week
+# deterministically, based on ISO week number.
+weekly_tips:
+  - "In Kotlin, sealed classes give you exhaustive checks in when blocks — no else branch needed."
+  - "In the Paper API, never touch the Bukkit API from an async thread when using scheduler.runTaskAsynchronously — sync back to the main thread first."
+  - "When writing Fabric mods, choosing the right Mixin injection point matters for performance — prefer @ModifyVariable over @Inject where possible."
+  - "Java records give you immutable data carriers with far less boilerplate than classes."
+  - "In Spigot, EventPriority.MONITOR is for observing only — never cancel an event there."
+  - "Writing commit messages as 'type: description' (feat, fix, chore) makes project history far more readable."
+  - "Use multi-stage Docker builds to keep images small — don't ship build-time dependencies in the final image."
+
+contact:
+  discord_user: "https://discord.com/users/albarcongun"
+  discord_label: "albarcongun"
+  github: "https://github.com/AlbarCongun-tr"
+  email: "albarconguncontact@gmail.com"
