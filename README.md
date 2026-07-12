@@ -13,11 +13,6 @@
 <img src="https://img.shields.io/github/stars/AlbarCongun-tr?label=Stars&style=for-the-badge&color=4FA8FF" alt="Stars"/>
 
 <br/>
-<br/>
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Random Dev Quote"/>
-
-</div>
 
 <br/>
 
