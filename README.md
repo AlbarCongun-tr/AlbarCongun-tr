@@ -226,7 +226,7 @@
 Open to collaborating on Minecraft projects — feel free to reach out.
 
 <a href="https://discord.com/users/albarcongun"><img src="https://img.shields.io/badge/Discord-albarcongun-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/></a>
-<a href="https://github.com/AlbarCongun-tr"><img src="https://img.shields.io/badge/GitHub-AlbarCongun-tr-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="https://github.com/AlbarCongun-tr"><img src="https://img.shields.io/badge/GitHub-AlbarCongun--tr-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 <a href="mailto:albarconguncontact@gmail.com"><img src="https://img.shields.io/badge/Gmail-albarconguncontact-4FA8FF?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
 
 </div>
