@@ -4,7 +4,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=21&pause=1000&color=4FA8FF&center=true&vCenter=true&width=650&lines=Kotlin+%26+Java+Developer;Minecraft+Plugin+%26+Mod+Developer;Paper+%7C+Spigot+%7C+Fabric;Lead+Developer+%40+TerraMonic;Full-Stack+%26+Cloud+Enthusiast;Always+Learning%2C+Always+Shipping" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=21&pause=1000&color=4FA8FF&center=true&vCenter=true&width=424&lines=Kotlin+%26+Java+Developer;Minecraft+Plugin+%26+Mod+Developer;Paper+%7C+Spigot+%7C+Fabric;Lead+Developer+%40+TerraMonic;Full-Stack+%26+Cloud+Enthusiast;Always+Learning%2C+Always+Shipping" alt="Typing SVG" />
 
 <br/>
 
@@ -45,8 +45,6 @@
 - Improving the **TerraMonic** server
 - Working on a new Paper plugin
 <!--END_SECTION:now-->
-
-*(Edit the `now:` list in `config.yml` to update this — no need to touch README.md.)*
 
 </div>
 
@@ -103,16 +101,6 @@
 
 <div align="center">
 
-## Recent Activity
-
-<!--START_SECTION:activity-->
-<!-- filled in automatically by the activity-feed workflow -->
-<!--END_SECTION:activity-->
-
-</div>
-
-<br/>
-
 <div align="center">
 
 ## Weekly Code Tip
@@ -129,7 +117,7 @@
 
 ## Contribution Activity Graph
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=AlbarCongun-tr&bg_color=0D1117&color=4FA8FF&line=4FA8FF&point=FFFFFF&area=true&hide_border=true" alt="Activity Graph" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=AlbarCongun-tr&custom_title=AlbarCongun%27s+Contribution+Graph&bg_color=0D1117&color=4FA8FF&line=4FA8FF&point=FFFFFF&area=true&hide_border=true" alt="Activity Graph" width="100%"/>
 
 </div>
 
